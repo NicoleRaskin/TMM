@@ -1,0 +1,173 @@
+/* ==================== into ================================== */
+
+.intro, .main, .secondary{
+	margin: auto;	
+	width: 85%;
+}
+
+/* ========= contains hag intro text div elements ================= */
+.hag{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.hagimg{
+	width: 20%;
+	margin: auto;
+	display: block;
+}
+
+.title{
+display: block;
+text-align: center;
+}
+
+h1{
+margin-bottom: 3%;
+text-align: center;
+}
+
+.introtext{
+	position: relative;
+}
+.numeric{
+	position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+/* ======================================================================================= */
+
+
+/* ==================== main panels container ================================== */
+
+.main{
+	display: flex;
+}
+
+/* ==================== left panel ================================== */
+.leftpanel{
+	width: 58.5%;
+	background-color: cyan;
+	height: 900px;
+	position: relative;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.statstable{
+	position: absolute;
+	bottom: 10px;
+}
+
+.sizechart{
+width: 30%;
+background-color: red;
+position: absolute;
+right: 0px;
+top: 0px;
+}
+
+/* ==================== right panel ================================== */
+.rightpanel{
+	width: 42.5%;
+	background-color: yellow;
+	overflow: 
+	height: 900px;
+}
+
+.loretraits {
+	display: flex;
+}
+
+.trait {
+	width: 50%;
+}
+
+/* ======================================================================================= */
+
+/* ==================== secondary panels container ================================== */
+
+.lore{
+	display: flex;
+	height: 800px;
+	overflow: scroll;
+	position: relative;
+}
+
+.l_lore{
+	background-color: red;
+	width: 16.5%;
+}
+
+.m_lore{
+	background-color: blue;
+	width: 63.5%;
+}
+
+.r_lore{
+	background-color: green;
+	width: 20%;
+}
+
+.table{
+	display: flex;
+	width: 100%;
+	border-style: solid;
+	background-color: white;
+	position: absolute;
+	position: sticky;
+}
+
+.ecologytable{
+	width: 30%;
+	margin: auto;
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+
+.lore .plore{
+	margin: auto;
+}
+
+h3{
+	text-align: center;
+	margin: auto;
+}
+
+/* ======================================================================================= */
+
+/* ==================== left lore container ================================== */
+
+.sub_table{
+	background-color: white;
+	border-style: solid;
+	position: absolute;
+	position: sticky;
+}
+
+/* ======================================================================================= */
+
+/* ==================== middle lore container ================================== */
+
+.m_content{
+	display: flex;
+	width: 100%;
+}
+
+.m_left{
+	width: 30%;
+	background-color: purple;
+}
+
+.m_right{
+	width: 70%;
+	background-color: pink;
+}
+
+/* ======================================================================================= */
